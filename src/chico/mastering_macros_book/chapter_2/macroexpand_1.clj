@@ -1,4 +1,4 @@
-(ns chico.macroexpand-1)
+(ns chico.mastering-macros-book.chapter-2.macroexpand-1)
 
 (macroexpand-1 '(when (= 1 2) (println "math is broken")))
 ;=> (if (= 1 2) (do (println "math is broken")))

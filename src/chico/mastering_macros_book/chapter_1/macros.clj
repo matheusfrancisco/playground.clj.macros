@@ -1,4 +1,4 @@
-(ns chico.macros
+(ns chico.mastering-macros-book.chapter-1.macros
   (:refer-clojure :exclude [when cond]))
 
 (let [expression (read-string "(+ 1 2 3)")]

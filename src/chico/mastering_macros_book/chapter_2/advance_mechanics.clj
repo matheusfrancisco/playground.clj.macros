@@ -1,4 +1,4 @@
-(ns chico.advance-mechanics
+(ns chico.mastering-macros-book.chapter-2.advance-mechanics
   (:require
    [clojure.pprint :as pprint]))
 

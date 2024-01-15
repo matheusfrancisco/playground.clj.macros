@@ -1,4 +1,4 @@
-(ns chico.advance-your-macro-technique)
+(ns chico.mastering-macros-book.chapter-2.advance-your-macro-technique)
 
 (defmacro assert [x]
   (when *assert* ;; check the dynamic var `clojure.core/*assert*` to make sure
